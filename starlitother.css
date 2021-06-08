@@ -1,0 +1,40 @@
+h2 {
+    font-size: 20px;
+    color: #bb8bfa;
+    text-shadow: 0px 0px 3px #6d257c;
+    font-family: Cambria;
+    margin: auto;
+    padding-right: 100px;
+}
+::selection {
+    text-shadow: 0 0 1px #cba1ee; color: #d0cdff
+}
+::-moz-selection {
+    text-shadow: 0 0 1px #d099f0; color: #d2c5ff
+}
+a {
+    text-decoration: none;
+    color: #d9cdfc;
+    font-family: Verdana;
+    text-shadow: 0px 0px 2px #822ea3;
+    
+}
+.text {
+    color: #ffd666;
+    text-shadow: 0px 0px 5px #ffdf86;
+}
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ffd666;
+    -webkit-border-radius: 0px;
+    border: 1px dotted #822ea3
+}
+a:hover {
+    color: #ffdb79;
+    text-shadow: 0px 0px 3px #ffdf86;
+    text-decoration: none;
+}
